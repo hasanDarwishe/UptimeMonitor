@@ -1,0 +1,6 @@
+/* This file is created specifically for importing local fonts without creating a mess in other files and folders */
+
+@font-face {
+  font-family: Main;
+  src: url('/public/fonts/Alan_Sans/AlanSans-VariableFont_wght.ttf');
+}
