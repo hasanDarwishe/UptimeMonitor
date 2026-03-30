@@ -1,9 +1,9 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
 import { HelmetProvider } from 'react-helmet-async';
 import { BrowserRouter } from 'react-router-dom';
 import './index.css'
-import './bootstrap-icons.min.css';
+import '../node_modules/bootstrap-icons/font/bootstrap-icons.min.css';
 import App from './App.tsx'
 
 createRoot(document.getElementById('root')!).render(
@@ -13,5 +13,5 @@ createRoot(document.getElementById('root')!).render(
         <App />
       </HelmetProvider>
     </BrowserRouter>
-  </StrictMode>,
+  </StrictMode>
 )
