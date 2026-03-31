@@ -1,3 +1,5 @@
 export function Home() {
-  return <>Home</>
+  return <>
+    The home page
+  </>
 }

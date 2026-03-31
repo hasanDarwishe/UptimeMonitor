@@ -16,7 +16,7 @@ function NavigationButton({icon, text, link}:{icon: string, text: string, link: 
 
 function App() {
   return (
-    <div style={{paddingTop: 50}}>
+    <div style={{paddingTop: 100}}>
       {/* Navigation Bar */}
       <header className="navigationBar">
         <NavigationButton link='/' icon='house' text='Home'/>

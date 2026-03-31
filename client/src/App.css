@@ -4,8 +4,8 @@
 
 .navigationBar {
   display: flex;
-  padding: 5px;
-  width: calc(100vw - 10px);
+  padding: var(--navbar-padding);
+  width: calc(100vw - var(--navbar-padding)*2);
   height: auto;
   position: fixed;
   flex-direction: row;
@@ -21,7 +21,7 @@
 }
 
 .navigationBar > .navigationButton {
-  padding: 10px;
+  padding: var(--navbar-button-padding);
   display: flex;
   flex-direction: row;
   gap: 2px;
